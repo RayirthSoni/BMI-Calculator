@@ -1,5 +1,7 @@
-def main():
-        pass
+weight = float(input('Enter your Weight(kg) : '))
+height = float(input('Enter your Height(m) : '))
 
-if __name__ == '__main__':
-    main()
+bmi = weight / height ** 2
+bmi = round(bmi,2)
+
+print(bmi)
